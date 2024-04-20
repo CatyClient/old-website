@@ -86,7 +86,7 @@
                       
      
                     <div class="grid-item preview-img" style="display: inline-block; margin: 0; text-align: right; background-color: #00000000; border-radius: 16px 0 0 16px; background-size: cover; background-position: 50% 50%; background-image:
-                    url('minecraft.jpg');">
+                    url('img/minecraft.jpg');">
                   </div>
                       
                       
