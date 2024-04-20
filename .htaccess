@@ -1,0 +1,12 @@
+php_value display_errors Off
+php_value mbstring.http_input auto
+php_value date.timezone Europe/Paris
+ErrorDocument 400 error/index.html
+ErrorDocument 404 error/404.html
+order allow,deny
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+allow from all        # allow for everone
+ErrorDocument 403 error/banned.html
