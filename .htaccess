@@ -1,3 +1,6 @@
 RewriteEngine On
+RewriteBase /
 ErrorDocument 403 web/error/403.html
 ErrorDocument 404 web/error/404.html
+RewriteRule ^web/index\.php$ - [L]
+RewriteRule ^$ /web/index.php [L]
