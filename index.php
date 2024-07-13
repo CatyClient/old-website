@@ -1,10 +1,14 @@
+<?php
+$pageTitle = 'CatyNetwork v2.4';
+?>
+
 <!DOCTYPE html>
 <html>
         
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
     
-    <title>CatyNetwork V2.4</title>
+    <title><?php echo $pageTitle; ?></title>
     
     <meta name="description" content="CatyNetwork V2.4">
     <meta name="keywords" content="Wii U Free Cheats Menus.">
